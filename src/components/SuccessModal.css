@@ -95,7 +95,7 @@
   font-size: 15px;
   font-weight: 500;
   color: white;
-  background: #2563eb;
+  background: var(--primary-color);
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -103,9 +103,9 @@
 }
 
 .close-btn:hover {
-  background: #1d4ed8;
+  background: var(--primary-color-hover);
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+  box-shadow: 0 4px 12px rgba(115, 3, 3, 0.3);
 }
 
 .close-btn:active {

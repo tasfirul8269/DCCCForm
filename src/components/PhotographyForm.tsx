@@ -180,9 +180,29 @@ const PhotographyForm = () => {
   return (
     <>
       <div className="form-container">
-        <div className="form-header">
-          <h1>Photography Contest Registration</h1>
-          <p>Fill in your details to participate in the contest</p>
+        <div className="form-cover-section">
+          <div className="cover-image">
+            <div className="cover-logo cover-logo-left">
+              <img 
+                src="https://i.ibb.co.com/nNNKDf1R/Cultural-Club-logo-01-1-11.png" 
+                alt="Cultural Club Logo" 
+                className="logo-image"
+              />
+            </div>
+            <div className="cover-logo cover-logo-right">
+              <img 
+                src="https://i.ibb.co.com/v4zfTmK8/969-9693257-dhaka-college-logo-dhaka-college-batch-2-removebg-preview-1.png" 
+                alt="Dhaka College Logo" 
+                className="logo-image"
+              />
+            </div>
+            <div className="cover-overlay">
+              <h2 className="cover-title">Photography Submission (Free)</h2>
+            </div>
+          </div>
+          <div className="cover-subtitle">
+            <p>Submit your best shots and showcase your vision through the lens.</p>
+          </div>
         </div>
 
         <form onSubmit={handleSubmit} className="photography-form">
